@@ -23,6 +23,7 @@ module.exports = () => {
 				name: faker.commerce.productName(),
 				description: faker.commerce.productDescription(),
 				price: faker.commerce.price(),
+				photo: "https://placeimg.com/640/480/shop",
 			}
 		})
 	}
